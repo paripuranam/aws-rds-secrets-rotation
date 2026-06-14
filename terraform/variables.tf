@@ -1,19 +1,17 @@
-variable "aws_region" {
-  default = "us-east-1"
+variable "db_username" {
+  type = string
 }
 
-variable "db_identifier" {
-  default = "demo-rds"
+variable "db_password" {
+  type      = string
+  sensitive = true
 }
 
 variable "db_name" {
-  default = "appdb"
+  type = string
 }
 
-variable "db_username" {
-  default = "admin"
-}
-
-variable "lambda_zip_path" {
-  default = "../lambda/rotation-handler.zip"
+variable "db_instance_identifier" {
+  description = "Existing RDS instance identifier"
+  type        = string
 }
