@@ -25,13 +25,13 @@ AWS Secrets Manager
 
 ### Method 1 — RDS Created With Secrets Manager
 
-docs/method1-rds-with-secrets.md
+📄 See detailed setup guide: [method1-rds-with-secrets.md](docs/method1-rds-with-secrets.md)
 
 ---
 
 ### Method 2 — Existing RDS Without Secrets Manager
 
-docs/method2-existing-rds.md
+📄 See detailed setup guide: [method2-existing-rds.md](docs/method2-existing-rds.md)
 
 ---
 
